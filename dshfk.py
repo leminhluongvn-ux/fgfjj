@@ -6,3 +6,4 @@ total_modified = sum('✅' in entry for entry in log_entries)
     # Ghi log với timestamp
     with open("log_patch_runtime.txt", "w", encoding="utf-8") as log_file:
         log_file.write(f"--- Log chạy lúc {datetime.now()} ---\n")
+dfggds
